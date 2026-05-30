@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react'
 import { motion, useInView, AnimatePresence } from 'framer-motion'
-import { FiX } from 'react-icons/fi'
+import { FiX, FiAward } from 'react-icons/fi'
 import { certifications } from '../data/certifications'
 
 const categories = ['All','AI / NLP','AI Foundations','Data Analytics','Data Science','Programming','Database','Professional','Research','AI / ML','Data Engineering','Engineering']
