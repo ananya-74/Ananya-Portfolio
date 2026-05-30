@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --purple: #A855F7;
+  --pink: #EC4899;
+  --cyan: #22D3EE;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #0B0F1A;
+  color: #F8FAFC;
+  font-family: 'DM Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #0B0F1A; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#A855F7, #EC4899);
+  border-radius: 3px;
+}
+
+/* Glow utilities */
+.glow-purple { box-shadow: 0 0 20px rgba(168,85,247,0.4); }
+.glow-pink   { box-shadow: 0 0 20px rgba(236,72,153,0.4); }
+.glow-cyan   { box-shadow: 0 0 20px rgba(34,211,238,0.4); }
+
+.glass {
+  background: rgba(255,255,255,0.04);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #A855F7, #EC4899, #22D3EE);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

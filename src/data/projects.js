@@ -1,0 +1,67 @@
+import p1 from '../assets/projects/project-1.jpg'
+import p2 from '../assets/projects/project-2.jpg'
+import p3 from '../assets/projects/project-3.jpg'
+import p4 from '../assets/projects/project-4.jpg'
+import p5 from '../assets/projects/project-5.jpg'
+export const projects = [
+  {
+    title: 'Root to Remedy',
+    subtitle: 'Ayurvedic Supply Chain Traceability Platform',
+    category: 'Full Stack | FastAPI | Next.js | Blockchain',
+    description: 'Full-stack Ayurvedic product traceability platform tracking the complete lifecycle of medicinal plants — from cultivation to consumer. Features QR-based verification and blockchain-inspired transparency.',
+    tech: ['Python','FastAPI','SQLAlchemy','SQLite','JWT','Next.js','TypeScript','QR Verification'],
+    github: 'https://github.com/ananya-74/root-to-remedy',
+    live: null,
+    gradient: 'from-purple-600/20 to-pink-600/20',
+    accent: '#A855F7',
+    image: p1,
+  },
+  {
+    title: 'LinkedIn Job Hunter',
+    subtitle: 'Automated Job Search & Application System',
+    category: 'Automation | Node.js | Playwright',
+    description: 'Automated job search and application system using Playwright that streamlines LinkedIn job discovery and Gmail-based workflows through browser automation.',
+    tech: ['Node.js','Playwright','JavaScript','Browser Automation','LinkedIn API','Gmail'],
+    github: 'https://github.com/ananya-74/linkedin-job-hunter',
+    live: null,
+    gradient: 'from-cyan-600/20 to-purple-600/20',
+    accent: '#22D3EE',
+    image: p2,
+  },
+  {
+    title: 'Quora Clone',
+    subtitle: 'CRUD Web Application',
+    category: 'Backend | REST APIs | Express.js',
+    description: 'A Quora-inspired CRUD web application with RESTful routing, dynamic server-side rendering, and a complete post management system.',
+    tech: ['Node.js','Express.js','EJS','HTML','CSS','JavaScript'],
+    github: 'https://github.com/ananya-74/quora_post',
+    live: null,
+    gradient: 'from-pink-600/20 to-cyan-600/20',
+    accent: '#EC4899',
+    image: p3,
+  },
+  {
+    title: 'Spotify Clone',
+    subtitle: 'Music Streaming UI',
+    category: 'Frontend | Responsive Design',
+    description: 'A responsive Spotify-inspired music streaming interface replicating modern UI layouts, sidebar navigation, playlists, and interactive styling.',
+    tech: ['HTML5','CSS3','Flexbox','CSS Grid','Responsive Design'],
+    github: 'https://github.com/ananya-74/Spotify-clone',
+    live: null,
+    gradient: 'from-green-600/20 to-cyan-600/20',
+    accent: '#22D3EE',
+    image: p4,
+  },
+  {
+    title: 'Hop Quest',
+    subtitle: '2D Python Game',
+    category: 'Python | Pygame | Game Dev',
+    description: 'A 2D game built with Python and Pygame featuring movement, jumping, collision detection, and real-time rendering — no external assets used.',
+    tech: ['Python','Pygame','Collision Detection','Game Loop','Event-driven'],
+    github: 'https://github.com/ananya-74/Hop-Quest',
+    live: null,
+    gradient: 'from-yellow-600/20 to-purple-600/20',
+    accent: '#A855F7',
+    image: p5,
+  },
+]
