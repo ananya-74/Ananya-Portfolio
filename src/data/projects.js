@@ -1,9 +1,22 @@
+import p6 from '../assets/projects/project-6.jpg'
 import p1 from '../assets/projects/project-1.jpg'
 import p2 from '../assets/projects/project-2.jpg'
 import p3 from '../assets/projects/project-3.jpg'
 import p4 from '../assets/projects/project-4.jpg'
 import p5 from '../assets/projects/project-5.jpg'
 export const projects = [
+  {
+    title: 'WanderLust',
+    subtitle: 'Full Stack Airbnb-inspired Rental Platform',
+    category: 'Full Stack | Node.js | MongoDB | Express.js',
+    description: 'A full-stack travel listing platform inspired by Airbnb. Features property listings with categories like Beach, Castle, Mountain and more, user authentication, reviews, image uploads, and GST-inclusive pricing.',
+    tech: ['Node.js', 'Express.js', 'MongoDB', 'EJS', 'Cloudinary', 'Passport.js', 'Bootstrap'],
+    github: 'https://github.com/ananya-74/wanderlust',
+    live: 'https://wanderlust-1-5ntk.onrender.com',
+    gradient: 'from-blue-600/20 to-teal-600/20',
+    accent: '#14B8A6',
+    image: p6,
+  },
   {
     title: 'Root to Remedy',
     subtitle: 'Ayurvedic Supply Chain Traceability Platform',
