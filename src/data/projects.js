@@ -1,4 +1,4 @@
-import p6 from '../assets/projects/project-6.jpeg'
+import p6 from '../assets/projects/project-6.jpg'
 import p1 from '../assets/projects/project-1.jpg'
 import p2 from '../assets/projects/project-2.jpg'
 import p3 from '../assets/projects/project-3.jpg'
