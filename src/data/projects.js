@@ -4,6 +4,8 @@ import p2 from '../assets/projects/project-2.jpg'
 import p3 from '../assets/projects/project-3.jpg'
 import p4 from '../assets/projects/project-4.jpg'
 import p5 from '../assets/projects/project-5.jpg'
+import p7 from '../assets/projects/project-7.png'
+import p8 from '../assets/projects/project-8.png'
 export const projects = [
   {
     title: 'WanderLust',
@@ -16,6 +18,30 @@ export const projects = [
     gradient: 'from-blue-600/20 to-teal-600/20',
     accent: '#14B8A6',
     image: p6,
+  },
+  {
+    title: 'JobConnect',
+    subtitle: 'MERN Stack Job Portal for Seekers & Recruiters',
+    category: 'Full Stack | MongoDB | Express.js | React | Node.js',
+    description: 'A full-stack MERN job portal connecting recruiters with job seekers. Recruiters can post and manage job openings and review applicants, while job seekers can search, filter, save, and apply to jobs with real-time application tracking.',
+    tech: ['React', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Tailwind CSS', 'Framer Motion'],
+    github: 'https://github.com/ananya-74/jobconnect',
+    live: 'https://jobconnect-rose-nine.vercel.app',
+    gradient: 'from-orange-600/20 to-red-600/20',
+    accent: '#F97316',
+    image: p7,
+  },
+  {
+    title: 'Book Graph',
+    subtitle: 'Graph-Powered Book Recommendation Engine',
+    category: 'Full Stack | React | Express.js | Graph DB',
+    description: 'A graph-backed book recommendation app that suggests books via multi-hop traversal of readers with shared taste, using a Neo4j-compatible graph database and Cypher queries for real-time collaborative filtering.',
+    tech: ['React', 'Express.js', 'Node.js', 'Neo4j', 'Cypher', 'REST API'],
+    github: 'https://github.com/ananya-74/wexa-book-graph',
+    live: 'https://wexa-book-graph.vercel.app',
+    gradient: 'from-indigo-600/20 to-blue-600/20',
+    accent: '#6366F1',
+    image: p8,
   },
   {
     title: 'Root to Remedy',

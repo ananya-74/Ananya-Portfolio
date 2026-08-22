@@ -39,7 +39,7 @@ export default function About() {
             className="grid grid-cols-2 gap-4"
           >
             {[
-              { num: '5+', label: 'Projects Built' },
+              { num: '8+', label: 'Projects Built' },
               { num: '15+', label: 'Certifications' },
               { num: '3+', label: 'Tech Stacks' },
               { num: '∞', label: 'Curiosity' },
